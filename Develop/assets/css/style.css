@@ -23,6 +23,15 @@ body {
     font-size: 20px;
 }
 
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
 .header h1 {
     display: inline-block;
     font-size: 48px;
