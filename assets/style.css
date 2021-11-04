@@ -1,0 +1,29 @@
+.container {
+  width: 100%;
+  height: 1000px;
+  background-color: yellow;
+  display: flex;
+  /* flex-direction: row-reverse; */
+  /* flex-wrap: wrap-reverse; */
+  /* justify-content: center; */
+  /* justify-content: space-between, space evenly, space around */
+  align-items: center;
+}
+
+.divy {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  border: 4px solid black;
+  margin: 5px;
+  font-size: 50 px;
+  color: white;
+}
+
+.item {
+  order: 1;
+}
+
+.item1 {
+  order: 1;
+}
