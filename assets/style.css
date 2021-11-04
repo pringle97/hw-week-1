@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 .container {
   width: 100%;
   height: 1000px;
@@ -26,4 +32,14 @@
 
 .item1 {
   order: 1;
+}
+
+footer {
+  justify-content: flex-end;
+  padding: 30px;
+  background-color: #433633;
+}
+
+footer h1 {
+  font-size: 20px
 }
